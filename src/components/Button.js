@@ -1,11 +1,11 @@
 import React from 'react';
-import {StyleSheet, Text, Dimensions, TouchableHighLight} from 'react-native';
+import {StyleSheet, Text, Dimensions, TouchableHighlight} from 'react-native';
 
 export default props => {
   return (
-    <TouchableHighLight onPress={props.onClick}>
+    <TouchableHighlight onPress={props.onClick}>
       <Text style={styles.buttons}>{props.label}</Text>
-    </TouchableHighLight>
+    </TouchableHighlight>
   );
 };
 
